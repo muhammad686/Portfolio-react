@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: helvetica, arial, sans-serif;
+  list-style: none;
+}
+
+/* Header styling */
+
+.header-main-container {
+  display: flex !important;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background-color: rgb(45, 45, 127);
+  color: white;
+}
+
+.logo-container {
+  justify-self: flex-start;
+  align-self: left;
+  font-size: 1.6em;
+  font-weight: bold;
+  padding: 0px 0 10px 0px;
+}
+.links-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+  font-weight: bold;
+  font-size: 1em;
+  padding: 10px 0;
+}
+.home-container {
+  padding: 20px 50px;
+}
